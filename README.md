@@ -1,12 +1,27 @@
 # FaceID-Biometric-
 Face/Touch ID
 
-Use FaceID-Biometric to lock/unlock your app feature with biometric authorities.
+Use FaceID-Biometric to lock/unlock your app feature with biometric authorities. You can implement this functioanity by using two line of code.
 
 ## Clone 
-To run the FaceID-Biometric project, clone the repo, and run the project.
+To run the FaceID-Biometric project, clone the repo, and run the project.<br />
+&nbsp;&nbsp;OR<br />
+Manually -> Copy the folder named "Biometric" and paste to your codes target directory.
+
 
 <img src = "https://github.com/raman43mann/FaceID-Biometric-/assets/154659783/29bf39cb-9f16-43c9-8ae4-5c6fcfea58d6" width="300" height="670">
+
+## How to use
+
+Step 1 : Integrate the files to your project
+
+Step 2 : Check either biometric enrolled in current device or not using below method
+
+  BiometricManager.checkBiometricType()
+
+Step 3 : Authenticate the user with below method
+
+  BiometricManager.shared.authenticateUser()
 
 
 
