@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //MARK:- Config function
+        //MARK:- Config function new
         configBioMetric()
        
     }
