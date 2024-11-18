@@ -22,7 +22,6 @@ class LoginViewController: UIViewController {
     func configBioMetric(){
         switch BiometricManager.checkBiometricType()
         {
-            
         case .none:
             btnBiometric.isHidden = true
         case .touchID:
